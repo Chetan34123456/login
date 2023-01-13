@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import ImageSection from './ImageSection';
-import LoginPage from './LoginPage';
-import { device } from './DeviceSize';
+import ImageSection from './components/ImageSection';
+import LoginPage from './components/LoginPage';
+
 function App() {
   return (
     <Container>
@@ -17,7 +17,9 @@ const Container = styled.div`
   box-sizing : border-box;
   align-items: center;
 
-  @media ()
+  @media (min-width: 0) and (max-width: 750px){
+    margin : 30px;
+  }
 `;
 
 

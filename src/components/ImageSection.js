@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import login from './assets/login.png';
-import { device } from './DeviceSize';
+import login from '../assets/login.png';
+
 const ImageSection = () => {
   return (
     <ImgSection>

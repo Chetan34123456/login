@@ -1,7 +1,7 @@
 import React from 'react'
 import "@fontsource/poppins";
 import styled from 'styled-components';
-import { device } from './DeviceSize';
+
 const LoginPage = () => {
   return (
     <Container>
@@ -29,7 +29,7 @@ const LoginPage = () => {
         <RowGroup>
         <input type="checkbox"></input>
           <p>Agree to &nbsp;</p>
-          <a>Terms and Conditions</a>
+          <a href="#">Terms and Conditions</a>
         </RowGroup>
       </Group>
       
@@ -39,7 +39,7 @@ const LoginPage = () => {
       
       <RowGroup>
         <p>Don't have an account ?&nbsp;</p>
-        <a style={{fontWeight : 'bold'}}>Register Here</a>
+        <a href= "#" style={{fontWeight : 'bold'}}>Register Here</a>
       </RowGroup>
       
     </Container>
@@ -62,14 +62,17 @@ const Container = styled.div`
       margin : 30px;
   }
 
-  @media (min-width: 0) and (max-width: 650px){
+  @media (min-width: 0) and (max-width: 750px){
     font-size : 14px;
-    height : 100vh;
-    padding : 50px;
+    padding : 30px;
+    margin : 0px;
   }
 
-    @media (min-width: 0) and (max-width: 360px){
+  @media (min-width: 0) and (max-width: 400px){
+    margin : 0px;
     padding : 20px;
+    font-size : 12px;
+    
   }
 `;
 
