@@ -29,7 +29,12 @@ const LoginPage = () => {
         <RowGroup>
         <input type="checkbox"></input>
           <p>Agree to &nbsp;</p>
-          <a href="#">Terms and Conditions</a>
+          <p style={{
+            cursor: 'pointer',
+            color: '#F78719',
+            textDecoration: 'underline',
+            textDecorationColor: '#F78719'
+          }}>Terms and Conditions</p>
         </RowGroup>
       </Group>
       
@@ -39,7 +44,13 @@ const LoginPage = () => {
       
       <RowGroup>
         <p>Don't have an account ?&nbsp;</p>
-        <a href= "#" style={{fontWeight : 'bold'}}>Register Here</a>
+        <p  style={{
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            color: '#F78719',
+            textDecoration: 'underline',
+            textDecorationColor: '#F78719'
+        }}>Register Here</p>
       </RowGroup>
       
     </Container>
@@ -136,13 +147,6 @@ const Group = styled.div`
 const RowGroup = styled.div`
   display : flex;
   justify-content : center;
-  
-  a {
-    cursor : pointer;
-    color : #F78719;
-    text-decoration: underline;
-    text-decoration-color: #F78719;
-  }
 `;
 
 

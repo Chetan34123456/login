@@ -26,4 +26,4 @@ const ImgSection = styled.div`
   }
   `;
 
-export default ImageSection
+export default ImageSection;
